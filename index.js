@@ -17,7 +17,7 @@ app.get('/',(req,res) => {
 })
 
 // send the use a StarWars Character
-app.get('/startwars',(req,res) => {
+app.get('/starwars',(req,res) => {
     res.send({
         characterName: 'Luke Skywalker',
         characterAge: 95,
